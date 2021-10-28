@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		033B86A62727B0CE0020E522 /* BitcoinTrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033B86A52727B0CE0020E522 /* BitcoinTrackerViewController.swift */; };
+		033B86A82727B2F90020E522 /* bitcoin-logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 033B86A72727B2F90020E522 /* bitcoin-logo.jpeg */; };
+		033B86AB2727B9CB0020E522 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033B86AA2727B9CB0020E522 /* Extensions.swift */; };
+		033B86AE2727BA220020E522 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033B86AD2727BA220020E522 /* Constants.swift */; };
+		033B86B02727BA5B0020E522 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033B86AF2727BA5B0020E522 /* Utils.swift */; };
 		03F04EBC27210EE5007CBD76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F04EBB27210EE5007CBD76 /* AppDelegate.swift */; };
 		03F04EBE27210EE5007CBD76 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F04EBD27210EE5007CBD76 /* SceneDelegate.swift */; };
-		03F04EC027210EE5007CBD76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F04EBF27210EE5007CBD76 /* ViewController.swift */; };
 		03F04EC327210EE5007CBD76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03F04EC127210EE5007CBD76 /* Main.storyboard */; };
 		03F04EC527210EE9007CBD76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03F04EC427210EE9007CBD76 /* Assets.xcassets */; };
 		03F04EC827210EE9007CBD76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03F04EC627210EE9007CBD76 /* LaunchScreen.storyboard */; };
+		03F04ED82721C27E007CBD76 /* BitcoinTrackerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F04ED72721C27E007CBD76 /* BitcoinTrackerViewModel.swift */; };
+		03F04EDB2721C7CB007CBD76 /* BitcoinTrackerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F04EDA2721C7CB007CBD76 /* BitcoinTrackerModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		033B86A52727B0CE0020E522 /* BitcoinTrackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitcoinTrackerViewController.swift; sourceTree = "<group>"; };
+		033B86A72727B2F90020E522 /* bitcoin-logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bitcoin-logo.jpeg"; sourceTree = "<group>"; };
+		033B86AA2727B9CB0020E522 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		033B86AD2727BA220020E522 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		033B86AF2727BA5B0020E522 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		03F04EB827210EE5007CBD76 /* BTCTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTCTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03F04EBB27210EE5007CBD76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03F04EBD27210EE5007CBD76 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		03F04EBF27210EE5007CBD76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		03F04EC227210EE5007CBD76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03F04EC427210EE9007CBD76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03F04EC727210EE9007CBD76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03F04EC927210EE9007CBD76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03F04ED72721C27E007CBD76 /* BitcoinTrackerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitcoinTrackerViewModel.swift; sourceTree = "<group>"; };
+		03F04EDA2721C7CB007CBD76 /* BitcoinTrackerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitcoinTrackerModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +49,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		033B86AC2727BA060020E522 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				033B86AA2727B9CB0020E522 /* Extensions.swift */,
+				033B86AD2727BA220020E522 /* Constants.swift */,
+				033B86AF2727BA5B0020E522 /* Utils.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 		03F04EAF27210EE5007CBD76 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +78,83 @@
 		03F04EBA27210EE5007CBD76 /* BTCTracker */ = {
 			isa = PBXGroup;
 			children = (
-				03F04EBB27210EE5007CBD76 /* AppDelegate.swift */,
-				03F04EBD27210EE5007CBD76 /* SceneDelegate.swift */,
-				03F04EBF27210EE5007CBD76 /* ViewController.swift */,
-				03F04EC127210EE5007CBD76 /* Main.storyboard */,
-				03F04EC427210EE9007CBD76 /* Assets.xcassets */,
-				03F04EC627210EE9007CBD76 /* LaunchScreen.storyboard */,
-				03F04EC927210EE9007CBD76 /* Info.plist */,
+				03F04ECF2721B458007CBD76 /* App */,
+				03F04ED02721B46F007CBD76 /* Application Support */,
+				03F04ED22721B550007CBD76 /* Other */,
+				03F04ED12721B53D007CBD76 /* Storyboards */,
+				033B86AC2727BA060020E522 /* Utility */,
 			);
 			path = BTCTracker;
+			sourceTree = "<group>";
+		};
+		03F04ECF2721B458007CBD76 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				03F04ED32721C183007CBD76 /* BitcoinTracker */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		03F04ED02721B46F007CBD76 /* Application Support */ = {
+			isa = PBXGroup;
+			children = (
+				03F04EBB27210EE5007CBD76 /* AppDelegate.swift */,
+				03F04EBD27210EE5007CBD76 /* SceneDelegate.swift */,
+			);
+			path = "Application Support";
+			sourceTree = "<group>";
+		};
+		03F04ED12721B53D007CBD76 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				03F04EC627210EE9007CBD76 /* LaunchScreen.storyboard */,
+				03F04EC127210EE5007CBD76 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		03F04ED22721B550007CBD76 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				033B86A72727B2F90020E522 /* bitcoin-logo.jpeg */,
+				03F04EC927210EE9007CBD76 /* Info.plist */,
+				03F04EC427210EE9007CBD76 /* Assets.xcassets */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		03F04ED32721C183007CBD76 /* BitcoinTracker */ = {
+			isa = PBXGroup;
+			children = (
+				03F04ED92721C2E1007CBD76 /* BitcoinTrackerModel */,
+				03F04ED62721C1B1007CBD76 /* BitcoinTrackerViewController */,
+				03F04ED42721C199007CBD76 /* BitcoinTrackerViewModel */,
+			);
+			path = BitcoinTracker;
+			sourceTree = "<group>";
+		};
+		03F04ED42721C199007CBD76 /* BitcoinTrackerViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				03F04ED72721C27E007CBD76 /* BitcoinTrackerViewModel.swift */,
+			);
+			path = BitcoinTrackerViewModel;
+			sourceTree = "<group>";
+		};
+		03F04ED62721C1B1007CBD76 /* BitcoinTrackerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				033B86A52727B0CE0020E522 /* BitcoinTrackerViewController.swift */,
+			);
+			path = BitcoinTrackerViewController;
+			sourceTree = "<group>";
+		};
+		03F04ED92721C2E1007CBD76 /* BitcoinTrackerModel */ = {
+			isa = PBXGroup;
+			children = (
+				03F04EDA2721C7CB007CBD76 /* BitcoinTrackerModel.swift */,
+			);
+			path = BitcoinTrackerModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +218,7 @@
 				03F04EC827210EE9007CBD76 /* LaunchScreen.storyboard in Resources */,
 				03F04EC527210EE9007CBD76 /* Assets.xcassets in Resources */,
 				03F04EC327210EE5007CBD76 /* Main.storyboard in Resources */,
+				033B86A82727B2F90020E522 /* bitcoin-logo.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +229,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03F04EC027210EE5007CBD76 /* ViewController.swift in Sources */,
+				03F04ED82721C27E007CBD76 /* BitcoinTrackerViewModel.swift in Sources */,
+				033B86AB2727B9CB0020E522 /* Extensions.swift in Sources */,
+				033B86A62727B0CE0020E522 /* BitcoinTrackerViewController.swift in Sources */,
+				03F04EDB2721C7CB007CBD76 /* BitcoinTrackerModel.swift in Sources */,
+				033B86AE2727BA220020E522 /* Constants.swift in Sources */,
 				03F04EBC27210EE5007CBD76 /* AppDelegate.swift in Sources */,
 				03F04EBE27210EE5007CBD76 /* SceneDelegate.swift in Sources */,
+				033B86B02727BA5B0020E522 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,7 +313,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -272,7 +368,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -290,7 +386,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BTCTracker/Info.plist;
+				INFOPLIST_FILE = BTCTracker/Other/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -305,7 +401,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,7 +413,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BTCTracker/Info.plist;
+				INFOPLIST_FILE = BTCTracker/Other/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -332,7 +428,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
